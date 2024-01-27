@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Sora:wght@400;500;600;700&display=swap');
+body {
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #030637;
+}
+h1 {
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 2rem auto auto auto;
+}
+.container {
+  border-radius: 25px;
+  width: 400px;
+  height: 600px;
+  box-sizing: border-box;
+  transition: background 0.5s ease-in-out;
+}
+._20_35degree {
+  background: linear-gradient(to bottom, #7fc7d9, #dcf2f1);
+}
+._below_20degree {
+  background: linear-gradient(to bottom, #38419d, #52d3d8);
+}
+._35_45degree {
+  background: linear-gradient(to bottom, #ff9800, #fff78a);
+}
+._above_45degree {
+  background: linear-gradient(to bottom, #9a031e, #e36414);
+}
+.container h2 {
+  color: #161a30;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  margin: 1.5rem 0 0 1.5rem;
+}
+.container h1 {
+  margin: 0;
+  font-size: 3.5rem;
+}
+.hidden {
+  display: none !important;
+}
+.icon {
+  margin: auto;
+  display: block;
+  height: 150px;
+}
+.text {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #030637;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+label {
+  color: white;
+  font-family: 'Sora', sans-serif;
+  font-weight: 500;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  width: 500px;
+  border-radius: 50px;
+}
+.submit {
+  padding: 1rem;
+  color: black;
+  font-family: 'Sora', sans-serif;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.submit:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
