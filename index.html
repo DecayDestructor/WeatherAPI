@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <h1>Weather API</h1>
+
+    <div class="container _20_35degree">
+      <h2>Mumbai, Maharashtra</h2>
+      <img
+        src="//cdn.weatherapi.com/weather/64x64/day/122.png"
+        alt="icon"
+        class="icon"
+      />
+      <p class="text status"></p>
+      <h1 class="temperature celcius"></h1>
+      <h1 class="temperature fahrenheit"></h1>
+      <p class="text wind" style="margin-top: 1rem"></p>
+      <p class="text lastUpdated" style="margin-top: 4rem"></p>
+    </div>
+    <label for="search">What city do you live in?</label>
+    <input
+      type="search"
+      name="search"
+      id="search"
+      placeholder="Search your city"
+    />
+    <button type="submit" class="submit">Submit</button>
+    <script src="script.js"></script>
+  </body>
+</html>
