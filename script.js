@@ -13,7 +13,7 @@ const fetchData = async (value) => {
     input.value = 'Mumbai'
   }
   const response = await fetch(
-    'http://api.weatherapi.com/v1/current.json?key=3b53d3d6f8fa460591985707242601&q=' +
+    'https://api.weatherapi.com/v1/current.json?key=3b53d3d6f8fa460591985707242601&q=' +
       value +
       '&aqi=no'
   )
